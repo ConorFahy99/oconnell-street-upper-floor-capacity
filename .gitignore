@@ -1,0 +1,17 @@
+# Large raster files — too big for GitHub
+01_data/raw/lidar/
+01_data/processed/nDSM_clipped.tif
+01_data/processed/buildings_zs.gpkg
+
+# QGIS lock files and temp files
+*.gpkg-wal
+*.gpkg-shm
+*.qgd
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.env
